@@ -1,0 +1,11 @@
+PASS First Shift: 6/6 sorted, 0 mistakes, 45.20s simulated.
+PASS First Shift: a misroute is requeued and all required pieces still arrive.
+PASS First Shift: 3 mistakes stops the line; fresh retry is solvable.
+PASS Cross Check: 7/7 sorted, 0 mistakes, 45.85s simulated.
+PASS Cross Check: a misroute is requeued and all required pieces still arrive.
+PASS Cross Check: 3 mistakes stops the line; fresh retry is solvable.
+PASS Amber Line: 8/8 sorted, 0 mistakes, 45.35s simulated.
+PASS Amber Line: a misroute is requeued and all required pieces still arrive.
+PASS Amber Line: 3 mistakes stops the line; fresh retry is solvable.
+PASS Junction input: allowed routes cycle; unavailable route is rejected; switching after commitment does not reroute a dispatched piece.
+PASS Save/reload: locked shifts, 50 coins once per clear, 150 total, and a one-time persistent visual upgrade.

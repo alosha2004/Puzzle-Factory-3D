@@ -1,0 +1,31 @@
+{
+  "levels": [
+    {
+      "name": "First Shift",
+      "hint": "Match the piece to its outline. Tap the junction or a route.",
+      "pieces": [1, 0, 1, 0, 0, 1],
+      "interval": 7.75,
+      "approach": 3.0,
+      "dispatch": 2.7,
+      "errorLimit": 3
+    },
+    {
+      "name": "Cross Check",
+      "hint": "Every piece has its own route. Watch the next piece on the belt.",
+      "pieces": [0, 1, 0, 1, 1, 0, 1],
+      "interval": 6.65,
+      "approach": 2.7,
+      "dispatch": 2.5,
+      "errorLimit": 3
+    },
+    {
+      "name": "Amber Line",
+      "hint": "The triangle takes the amber branch. Match outlines as the line speeds up.",
+      "pieces": [2, 1, 2, 2, 1, 2, 1, 2],
+      "interval": 5.7,
+      "approach": 2.35,
+      "dispatch": 2.35,
+      "errorLimit": 3
+    }
+  ]
+}
